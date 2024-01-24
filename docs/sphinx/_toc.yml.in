@@ -5,6 +5,12 @@ defaults:
   maxdepth: 6
 root: index
 subtrees:
+- caption: Tutorials
+  entries:
+  - file: c++_tutorials
+    title: C++ Tutorials
+  - file: python_tutorials
+    title: Python Tutorials
 - caption: How to Guide
   entries:
   - file: c++_usage
