@@ -2,7 +2,7 @@
 Python API Reference
 ====================
 
-This chapter describes the rocm_smi Python module API.
+This chapter describes the ROCm SMI Python module API.
 
 .. default-domain:: py
 .. py:currentmodule:: rocm_smi
