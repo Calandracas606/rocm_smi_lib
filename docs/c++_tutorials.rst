@@ -2,7 +2,7 @@
 C++ Tutorials
 ====================
 
-This chapter is the rocm_smi C++ api tutorials.
+This chapter contains the ROCm SMI C++ API tutorials.
 
 .. code-block:: c++
 
