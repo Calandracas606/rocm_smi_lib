@@ -16,8 +16,6 @@ docs_dir_path = pathlib.Path(__file__).parent
 python_dir_path = docs_dir_path.parent / 'python_smi_tools'
 sys.path.append(str(python_dir_path))
 
-extensions = ['m2r']
-
 with open('../CMakeLists.txt', encoding='utf-8') as f:
     match = re.search(r'get_package_version_number\(\"?([0-9.]+)[^0-9.]+', f.read())
     if not match:
@@ -43,3 +41,5 @@ external_projects_current_project = "rocm_smi_lib"
 
 for sphinx_var in ROCmDocs.SPHINX_VARS:
     globals()[sphinx_var] = getattr(docs_core, sphinx_var)
+
+extensions += ['sphinx.ext.mathjax']

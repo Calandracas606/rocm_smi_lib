@@ -162,11 +162,11 @@ def formatMatrixToJSON(deviceList, matrix, metricName):
 
     .. math::
 
-        M = \begin{bmatrix}
-                1 & 4 & 7 \\
-                2 & 5 & 8 \\
-                3 & 6 & 9
-            \end{bmatrix}
+        \\begin{bmatrix}
+                 & GPU0 & GPU1 \\\\
+            GPU0 & 0 & 40 \\\\
+            GPU1 & 40 & 0
+        \\end{bmatrix}
 
     Where matrix content is: [[0, 40], [40, 0]]
     """
